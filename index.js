@@ -1,13 +1,7 @@
 const currentUser = 'Grace Hopper';
 
-let welcomeMessage = 'Welcome to Flatbook, ';
-welcomeMessage = welcomeMessage + currentUser;
-welcomeMessage = welcomeMessage + '!';
+let welcomeMessage = `Welcome to Flatbook, ${currentUser} !`;
 
-let excitedWelcomeMessage = 'WELCOME TO FLATBOOK, ';
-excitedWelcomeMessage += currentUser.toUpperCase();
-excitedWelcomeMessage =  excitedWelcomeMessage + "!";
+let excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser.toUpperCase()} !`;
 
-let shortGreeting = 'Welcome, ';
-shortGreeting = shortGreeting + currentUser[0];
-shortGreeting += '!';
+let shortGreeting = `Welcome, ${currentUser[0]} !`;
